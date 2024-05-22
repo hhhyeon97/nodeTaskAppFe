@@ -1,10 +1,10 @@
 body {
-  color: lightblue !important ;
-  background-color: aliceblue !important;
+  color: rgb(81, 121, 196) !important ;
+  /* background-color: aliceblue !important; */
 }
 
 .todo-item {
-  border: 1px solid lightblue;
+  border: 1px solid rgb(134, 164, 219);
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,7 @@ body {
 .input-box {
   padding: 10px;
   width: 100%;
-  border: 1px solid lightblue;
+  border: 1px solid rgb(134, 164, 219);
   border-radius: 4px;
 }
 .input-box:focus {
@@ -31,32 +31,30 @@ body {
   height: 40px;
   width: 100%;
   border: none;
-  background-color: lightblue;
+  background-color: rgb(134, 164, 219);
   color: white;
   border-radius: 4px;
 }
 .button-add:hover {
   background-color: white;
-  color: lightblue;
-  border: 2px solid lightblue;
+  color: rgb(88, 121, 180);
+  border: 2px solid rgb(134, 164, 219);
 }
 .button-delete {
   background-color: white;
-  border: 2px solid lightblue;
-  color: lightblue;
+  border: 2px solid rgb(134, 164, 219);
+  color: rgb(134, 164, 219);
   margin: 10px;
   border-radius: 4px;
 }
 .button-delete:hover {
-  background-color: lightblue;
-  color: #ffffff;
+  background-color: rgb(134, 164, 219);
+  color: white;
 }
 
 .item-complete {
-  /* background-color: gainsboro; */
   text-decoration: line-through;
-  /* color:white; */
-  background-color: aliceblue;
+  background-color: rgb(217, 222, 233);
 }
 .todo-title {
   font-weight: bold;
